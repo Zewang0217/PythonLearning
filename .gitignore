@@ -1,0 +1,22 @@
+# 忽略所有文件
+*
+
+# 但允许以下类型的文件
+!*.py
+!*.md
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.ico
+
+# 允许必要的 Git 文件
+!.gitignore
+!README.md
+
+# 忽略特定目录
+temp/
+data/
+history/
+conf/
